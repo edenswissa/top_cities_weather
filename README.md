@@ -1,16 +1,32 @@
 ## Top Cities Weather
 
-an api to get current weather of top 10 cities in the world -
-1.Jerusalem.
-2.New york.
-3.Berlin.
-4.Madrid.
-5.Moscow.
-6.Paris.
-7.Cairo.
-8.London.
-9.Beijing.
-10.Buenos Aires.
+An api to get current weather of top 10 cities in the world:
+
+*Jerusalem.
+*New york.
+*Berlin.
+*Madrid.
+*Moscow.
+*Paris.
+*Cairo.
+*London.
+*Beijing.
+*Buenos Aires.
+
+### Clone 
+```sh
+$ git clone https://github.com/edenswissa/top_cities_weather.git
+```
+
+### Install
+```sh
+$ npm install
+```
+
+### Start
+```sh
+$ npm start
+```
 
 created by Eden Swissa.
 
