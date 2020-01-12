@@ -1,0 +1,50 @@
+
+
+.CitiesOptionsContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.ButtonContianer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.CitiesContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CitiesContainer > * {
+    margin: 15px;
+}
+
+.SelectAllContainer {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 200px;
+    padding: 5px;
+}
+
+.SelectAllText {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    text-shadow: darkgray 2px 2px;
+}

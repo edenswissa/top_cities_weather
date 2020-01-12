@@ -1,0 +1,18 @@
+.Container {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 200px;
+    padding: 5px;
+}
+
+.CityName {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Flag {
+    width: 25px;
+    height: 20px;
+}

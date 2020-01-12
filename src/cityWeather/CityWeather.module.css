@@ -1,0 +1,76 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.Paper {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    animation: slide-up 1s ease;
+}
+
+.Header {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    color: rgb(75, 72, 72);
+    font-weight: bold;
+}
+
+.Button {
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    color:blue;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-color: darkblue;
+    border-radius: 10px;
+}
+
+.TepmContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TepmContainer > * {
+    margin-right: 5px;
+}
+
+.Button:hover {
+    background-color: lightblue;
+}
+
+.ActiveButton {
+    background-color: lightblue;
+}
+
+.UnitButtons {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
