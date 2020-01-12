@@ -2,16 +2,16 @@
 
 An api to get current weather of top 10 cities in the world:
 
-*Jerusalem.
-*New york.
-*Berlin.
-*Madrid.
-*Moscow.
-*Paris.
-*Cairo.
-*London.
-*Beijing.
-*Buenos Aires.
+* Jerusalem.
+* New york.
+* Berlin.
+* Madrid.
+* Moscow.
+* Paris.
+* Cairo.
+* London.
+* Beijing.
+* Buenos Aires.
 
 ### Clone 
 ```sh
