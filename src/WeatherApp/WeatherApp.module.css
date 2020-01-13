@@ -2,7 +2,7 @@
 
 .CitiesOptionsContainer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -42,9 +42,9 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    font-size: larger;
     font-family: 'Comfortaa', cursive;
-    font-size: 25px;
     font-weight: bold;
     color:black;
-    text-shadow: darkgray 2px 2px;
+    text-shadow: darkgray 2px 2px 5px;
 }

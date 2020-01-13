@@ -32,6 +32,8 @@ class WeatherApp extends Component {
         // this.setState({loading:true});
         weatherService.getCitiesWeather(this.state.checkedCities).then(res => {
             this.setState({citiesWeather:res, loading:false})
+        }).catch(err => {
+            alert(err);
         });
     }
 
@@ -48,7 +50,7 @@ class WeatherApp extends Component {
         return(
             <div className={classes.Conatiner}>
                 <div className={classes.Header}>
-                    Top Cities Weather
+                    <h1>Top Cities Weather</h1>
                 </div>
                 <div className={classes.CitiesOptionsContainer}>
                     {weatherService.topCities.map(city => {
